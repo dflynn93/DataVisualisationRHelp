@@ -1,3 +1,5 @@
+install.packages(shiny)
+
 ## Load libraries
 library(shiny)
 library(tidyverse)
