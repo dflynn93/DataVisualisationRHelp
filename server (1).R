@@ -20,7 +20,7 @@ shinyServer(function(input, output) {
       # Histogram
       ggplot(df_country(), aes_string(x = input$continuous_variable)) +
         geom-histogram() +  # histogram geom
-        labs(y = "Number of People",
+        labs(x="Categorical Variable",y="Output",
             title = "Histogram") +  # labels
         facet_wrap(~prediction)    # facet by prediction
     }
